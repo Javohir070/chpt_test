@@ -13,7 +13,7 @@ function PlanCard({ planData }) {
           <span>{planData?.icons}</span>
         </div>
         <div className="card-text">
-          <h4>{planData?.cardText}</h4>
+        <a href={planData?.cardLink}> <h4>{planData?.cardText}</h4></a>
           <p>{planData?.cardTitle}</p>
         </div>
       </div>

@@ -17,7 +17,8 @@ function OurPlans() {
                   className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
                   key={index}
                 >
-                  <PlanCard planData={item} />
+                    <PlanCard planData={item} />
+                  
                 </div>
               );
             })}

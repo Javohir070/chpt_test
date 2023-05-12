@@ -47,7 +47,7 @@ Container.Title = styled.h1`
   font-weight: 700;
   user-select: none;
   padding-bottom: 10px;
-
+  text-align: center;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(
       to right,
@@ -101,6 +101,7 @@ Container.Resources = styled.div`
     align-items: center;
     flex-direction: column;
     p {
+      text-align: center;
       color: var(--hoverText);
       font-size: 16px;
       font-weight: 400;

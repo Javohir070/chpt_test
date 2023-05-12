@@ -51,7 +51,9 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
-
+.our-plans .plan-card .card-text a{
+  text-decoration: none;
+}
 .our-plans .plan-card .card-text h4:hover {
   color: #4c1864;
 }

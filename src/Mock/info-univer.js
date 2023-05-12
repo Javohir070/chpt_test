@@ -17,6 +17,7 @@ export const planCardData = [
       />
     ),
     cardText: "Joriy nazoratlar",
+    cardLink:"student/exams-list/current",
     cardTitle:
       "Siz oliygohda har semestr o'tkaziladigan musobaqalarda qatnashishingiz mumkin",
   },
@@ -27,6 +28,7 @@ export const planCardData = [
       <FontAwesomeIcon icon={faBook} size={`1.5rem`} className="card-icon" />
     ),
     cardText: "Ma'ruzalar",
+    cardLink:"/lectures",
     cardTitle:
       "O'zingizga kerakli mavzu yuzasidan ma'ruzalarni online olishingiz mumkin",
   },
@@ -37,6 +39,7 @@ export const planCardData = [
       <FontAwesomeIcon icon={faFile} size={`1.5rem`} className="card-icon" />
     ),
     cardText: "Mustaqil o'rganish uchun manbalar",
+    cardLink:"/practices",
     cardTitle:
       "Bu bo'limdan siz o'zingizga kerakli elektron resurslarni topishingiz mumkin.",
   },
